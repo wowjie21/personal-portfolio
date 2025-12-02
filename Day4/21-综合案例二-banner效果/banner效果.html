@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banner效果</title>
+    <style>
+        .banner {
+            height: 500px;
+            background-color: #f3f3f4;
+            background-image: url(./images/game.jpg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
+            
+            /* 文字控制属性，继承给子级 */
+            text-align: right;
+            color:#333  ;
+        }
+
+        .banner h2{
+            font-family: "kaiTi";
+            font-size: 36px;
+            font-weight:400 ;
+            line-height: 100px; 
+        }
+
+        .banner p {
+            font-family: "kaiTi";
+            font-size: 20px;
+        }
+
+        .banner a {
+            width: 125px;
+            height: 40px;
+            background-color: red;
+            display: inline-block;
+            
+            /* 转块级无法右对齐，因为块元素独占一行 */
+            /* display: block; */
+            text-align: center;
+            line-height: 40px;
+            color: rgb(235, 235, 43);
+            text-decoration: none;
+            font-size: 20px;
+
+            
+        }
+
+        .banner a:hover{
+            background-color: rgb(240, 90, 90);
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h2>是兄弟就来砍我！</h2>
+        <p>大家好，我是张家辉，戏我演过很多；</p>
+        <p>但游戏，我只喜欢贪玩蓝月，装备回收；交易自由，来到就是赚到。赶快过来一起贪玩蓝月。</p>
+        <a href="#">现在注册</a>
+    </div>
+</body>
+</html>

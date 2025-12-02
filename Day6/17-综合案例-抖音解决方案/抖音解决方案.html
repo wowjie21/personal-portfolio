@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抖音解决方案</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box {
+            margin: 50px auto;
+            width: 1200px;
+            height: 418px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .box ul {
+            display: flex;
+            /* 弹性盒子换行 */
+            flex-wrap: wrap;
+            /* 调整主轴对齐方式 */
+            justify-content: space-between;
+
+            /* 调整 行对齐的方式 */
+            align-content: space-between;
+
+            padding: 90px 40px 90px 60px;
+            height: 418px;
+        }
+
+        .box li {
+            display: flex;
+            width: 500px;
+            height: 88px;
+            background-color: rgb(255, 255, 255);
+            border:1px solid rgb(159, 155, 155) ;
+            
+        }
+
+        .box .pic {
+
+            margin-right: 15px;
+        }
+
+        .box .text h4{
+            line-height: 40px;
+            font-size: 20px;
+            font-weight: 400;
+            color: black;
+        }
+
+        .box .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* 保持比例裁剪，不会变形 */
+            display: block;
+            /* 去掉图片底部空隙 */
+        }
+
+        .box .text p {
+            font-size: 14px;
+            color: #2e2b2b;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="pic">
+                    <img src="./images/download.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h4>PopCat</h4>
+                    <p>pop pop pop</p>
+                </div>
+            </li>
+            <li>
+                <div class="pic">
+                    <img src="./images/images.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h4>習維尼熊</h4>
+                    <p>習近平發動技能-禁評！</p>
+                </div></li>
+            <li>
+                <div class="pic">
+                    <img src="./images/random-question-but-does-anyone-have-versions-of-this-cat-v0-ya8qikz9kn0f1.webp" alt="">
+                </div>
+                <div class="text">
+                    <h4>Mr. Cat</h4>
+                    <p>哈机密哈机密</p>
+                </div></li>
+            <li>
+                <div class="pic">
+                    <img src="./images/w700d1q75cms.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h4>渣渣輝</h4>
+                    <p>是兄弟就來砍我！</p>
+                </div></li>
+        </ul>
+    </div>
+</body>
+
+</html>
