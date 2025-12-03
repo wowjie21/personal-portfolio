@@ -94,7 +94,7 @@ body {
     width: 16px;
     height: 16px;
     background-size: contain;
-    background-image: url(../images/search.png);
+    background-image: url(Day7/Study/images/search.png);
 }
 
 /* 用户 */
@@ -126,7 +126,7 @@ body {
     background-position:center;
     background-size: contain;
     height: 420px;
-    background-image: url(../images/banner.jpg);
+    background-image: url(Day7/Study/images/banner.jpg);
 }
 
 .banner .left{
@@ -141,7 +141,7 @@ body {
     /* 块级：宽度是父级的100% */
     display: block;
     height: 46px;
-    background: url(../images/arrow2.png) no-repeat right center;
+    background: url(Day7/Study/images/arrow2.png) no-repeat right center;
     background-size: 10px 10px;
     line-height: 46px;
     font-size: 16px;
@@ -149,7 +149,7 @@ body {
 }
 
 .banner .left a:hover{
-   background-image: url(../images/arrow.png);
+   background-image: url(Day7/Study/images/arrow.png);
    color: #403f3f;
 }
 
@@ -274,7 +274,7 @@ body {
 
 .hd .more{
     padding-right: 20px;
-    background: url(../images/arrow.png) no-repeat right center;
+    background: url(Day7/Study/images/arrow.png) no-repeat right center;
     background-size: 10px 10px;
     font-size: 14px;
     color: #999;
